@@ -42,8 +42,8 @@ const nextBtn=document.querySelector(".next-btn");
 const randomBtn=document.querySelector(".random-btn");
 
  // Setting up an initial Item
- let initItem=0; 
-window.addEventListener("DOMContentLoaded",()=>{
+ let initItem=1; 
+document.addEventListener("DOMContentLoaded",()=>{
  showPerson();
 
 });
